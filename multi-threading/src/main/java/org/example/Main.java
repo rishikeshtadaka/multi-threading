@@ -4,7 +4,7 @@ import java.time.LocalDateTime;
 import java.util.concurrent.TimeUnit;
 
 public class Main {
-    private static Integer tillNumber=1000000;
+    private static Integer tillNumber=10000000;
     private static Integer counter=0;
     private static void checkPrime(Integer number){
         for(Integer i=2;i<=Math.sqrt(number);i++){
